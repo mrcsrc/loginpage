@@ -1,0 +1,263 @@
+/*=== GERAL ====================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-size: 62.5%; /* 1rem = 10px */
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fa;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* LOGIN */
+.home {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 10rem;
+}
+
+.bg {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+
+  width: 30%;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-top: 1rem;
+
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.8rem;
+
+  width: 30rem;
+  height: 37rem;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 25rem;
+}
+
+.login h1 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 135.5%;
+
+  margin-top: 1rem;
+
+  margin-bottom: 1rem;
+}
+
+.login h1 span {
+  font-size: 1.8rem;
+  font-weight: 900;
+  color: #6358dc;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+
+  border-bottom: 4px solid #e5e5e5;
+  width: 25rem;
+  height: 4rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 25rem;
+  height: 3rem;
+
+  gap: 1rem;
+
+  font-size: 0.875rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.button:hover {
+  background-color: #e5e5e5;
+  transition: background 200ms;
+}
+
+.login p {
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  width: 25rem;
+
+  margin-bottom: 1.5rem;
+}
+
+.login p::after {
+  content: '';
+  display: block;
+  position: relative;
+
+  top: -11px;
+  left: 240px;
+
+  width: 160px;
+  height: 1px;
+  background-color: #bfbfbf;
+}
+
+.login p::before {
+  content: '';
+  display: block;
+  position: relative;
+
+  top: 12px;
+
+  width: 160px;
+  height: 1px;
+  background-color: #bfbfbf;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+
+  width: 25rem;
+  height: 3.5rem;
+  background-color: #e5e5e5;
+
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+.form-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon {
+  margin-inline: 1rem;
+}
+
+.form-text input {
+  display: inline-block;
+  width: 20rem;
+  padding-block: 0.3rem;
+
+  font-weight: bold;
+
+  background: none;
+  border: none;
+  outline: 0;
+}
+
+.form-text input::placeholder {
+  font-weight: bold;
+  color: #000;
+}
+
+.form-password {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-password input {
+  display: inline-block;
+  width: 18rem;
+  padding-block: 0.3rem;
+
+  font-weight: bold;
+
+  background: none;
+  border: none;
+  outline: 0;
+}
+
+.check {
+  cursor: pointer;
+}
+
+.infos {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+
+  width: 24rem;
+
+  margin-bottom: 1rem;
+}
+
+.infos input[type='checkbox'] {
+  position: relative;
+  cursor: pointer;
+
+  width: 20px;
+  height: 15px;
+}
+
+.infos a {
+  margin-left: 190px;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  height: 2.5rem;
+  background: #6358dc;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.btn a {
+  color: #fff;
+}
+
+.links {
+  color: #6358dc;
+}
